@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj": {}
+    "D:\\FACULTATE\\An3Sem2\\II\\Proiect\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj": {
+    "D:\\FACULTATE\\An3Sem2\\II\\Proiect\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj",
+        "projectUniqueName": "D:\\FACULTATE\\An3Sem2\\II\\Proiect\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
         "projectName": "Proiect_II",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj",
-        "packagesPath": "C:\\Users\\ponorandaria\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\obj\\",
+        "projectPath": "D:\\FACULTATE\\An3Sem2\\II\\Proiect\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+        "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+        "outputPath": "D:\\FACULTATE\\An3Sem2\\II\\Proiect\\FE_II_DesktopApp\\Proiect_II\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\ponorandaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }
