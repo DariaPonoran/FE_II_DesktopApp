@@ -13,6 +13,7 @@ namespace Proiect_II
             LoadImageInPictureBox();
             LoadImageOnButtonClose(closeButton, "Cross.png");
             LoadImageOnButton(homeButton, "Home.png");
+            signUpControl1.Visible = false;
             signInControl1.Visible = false;
         }
 
@@ -23,18 +24,29 @@ namespace Proiect_II
 
         private void signIn_Click(object sender, EventArgs e)
         {
-            homeControl2.Visible = false;
+            signUpControl1.Visible = false;
+            homeControl1.Visible = false;
             signInControl1.Visible = true;
             signInControl1.BringToFront();
         }
 
         private void homeButton_Click(object sender, EventArgs e)
         {
+            signUpControl1.Visible = false;
+            homeControl1.Visible = true;
             signInControl1.Visible = false;
-            homeControl2.Visible = true;
-            homeControl2.BringToFront();
+            homeControl1.BringToFront();
 
         }
+
+        private void signUp_Click(object sender, EventArgs e)
+        {
+            homeControl1.Visible = false;
+            signInControl1.Visible = false;
+            signUpControl1.Visible = true;
+            signUpControl1.BringToFront();
+        }
+
         private void LoadImageInPictureBox()
         {
             string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Images", "pizzaLogo.png");
@@ -54,7 +66,11 @@ namespace Proiect_II
             button.ImageAlign = ContentAlignment.MiddleCenter;
             button.TextImageRelation = TextImageRelation.ImageBeforeText;
         }
-        
-       
+
+
+        private void signInControl1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

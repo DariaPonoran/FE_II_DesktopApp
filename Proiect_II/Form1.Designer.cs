@@ -39,7 +39,8 @@
             panel3 = new Panel();
             homeButton = new Button();
             signInControl1 = new SignInControl();
-            homeControl2 = new HomeControl();
+            homeControl1 = new HomeControl();
+            signUpControl1 = new SignUpControl();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoPicture).BeginInit();
             panel3.SuspendLayout();
@@ -73,6 +74,7 @@
             signUp.Text = "Sign up";
             signUp.TextImageRelation = TextImageRelation.ImageBeforeText;
             signUp.UseVisualStyleBackColor = false;
+            signUp.Click += signUp_Click;
             // 
             // signIn
             // 
@@ -163,25 +165,34 @@
             // 
             // signInControl1
             // 
-            signInControl1.Location = new Point(224, 168);
+            signInControl1.Location = new Point(271, 162);
             signInControl1.Name = "signInControl1";
             signInControl1.Size = new Size(569, 376);
             signInControl1.TabIndex = 4;
+            signInControl1.Load += signInControl1_Load;
             // 
-            // homeControl2
+            // homeControl1
             // 
-            homeControl2.BackColor = Color.RosyBrown;
-            homeControl2.Location = new Point(0, 104);
-            homeControl2.Name = "homeControl2";
-            homeControl2.Size = new Size(1123, 720);
-            homeControl2.TabIndex = 5;
+            homeControl1.BackColor = Color.RosyBrown;
+            homeControl1.Location = new Point(-2, 104);
+            homeControl1.Name = "homeControl1";
+            homeControl1.Size = new Size(1128, 720);
+            homeControl1.TabIndex = 0;
+            // 
+            // signUpControl1
+            // 
+            signUpControl1.Location = new Point(309, 162);
+            signUpControl1.Name = "signUpControl1";
+            signUpControl1.Size = new Size(543, 407);
+            signUpControl1.TabIndex = 5;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1126, 688);
-            Controls.Add(homeControl2);
+            Controls.Add(signUpControl1);
+            Controls.Add(homeControl1);
             Controls.Add(signInControl1);
             Controls.Add(panel3);
             Controls.Add(panel2);
@@ -207,6 +218,6 @@
         private Button homeButton;
         private SignInControl signInControl1;
         private HomeControl homeControl1;
-        private HomeControl homeControl2;
+        private SignUpControl signUpControl1;
     }
 }

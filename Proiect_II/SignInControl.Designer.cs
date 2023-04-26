@@ -31,7 +31,7 @@
             textBoxPass = new TextBox();
             textBoxUser = new TextBox();
             passwordLabel = new Label();
-            userLabel = new Label();
+            emailLabel = new Label();
             SuspendLayout();
             // 
             // textBoxPass
@@ -58,15 +58,15 @@
             passwordLabel.TabIndex = 5;
             passwordLabel.Text = "Password:";
             // 
-            // userLabel
+            // emailLabel
             // 
-            userLabel.AutoSize = true;
-            userLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            userLabel.Location = new Point(141, 155);
-            userLabel.Name = "userLabel";
-            userLabel.Size = new Size(106, 22);
-            userLabel.TabIndex = 4;
-            userLabel.Text = "Username:";
+            emailLabel.AutoSize = true;
+            emailLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            emailLabel.Location = new Point(102, 159);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new Size(139, 22);
+            emailLabel.TabIndex = 4;
+            emailLabel.Text = "Email Address:";
             // 
             // SignInControl
             // 
@@ -75,7 +75,7 @@
             Controls.Add(textBoxPass);
             Controls.Add(textBoxUser);
             Controls.Add(passwordLabel);
-            Controls.Add(userLabel);
+            Controls.Add(emailLabel);
             Name = "SignInControl";
             Size = new Size(569, 376);
             ResumeLayout(false);
@@ -87,6 +87,6 @@
         private TextBox textBoxPass;
         private TextBox textBoxUser;
         private Label passwordLabel;
-        private Label userLabel;
+        private Label emailLabel;
     }
 }

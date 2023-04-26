@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Proiect_II
 {
@@ -15,8 +16,12 @@ namespace Proiect_II
         public HomeControl()
         {
             InitializeComponent();
-            
+
         }
-        
+
+        private void vScrollBar1_Scroll(object sender, ScrollEventArgs e)
+        {
+
+        }
     }
 }
