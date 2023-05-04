@@ -30,72 +30,33 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HomeControl));
             searchButton = new Button();
-            cityLabel = new Label();
-            pictureBoxPizza = new PictureBox();
-            label2 = new Label();
-            vScrollBar1 = new VScrollBar();
             radioButtonCluj = new RadioButton();
             radioButtonBucuresti = new RadioButton();
             radioButtonTimisoara = new RadioButton();
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPizza).BeginInit();
+            panel1 = new Panel();
+            label1 = new Label();
+            panel2 = new Panel();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
             // searchButton
             // 
             searchButton.BackColor = Color.OrangeRed;
-            searchButton.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            searchButton.Location = new Point(702, 167);
+            searchButton.Font = new Font("Century", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            searchButton.Location = new Point(72, 319);
             searchButton.Name = "searchButton";
-            searchButton.Size = new Size(89, 42);
+            searchButton.Size = new Size(118, 42);
             searchButton.TabIndex = 0;
             searchButton.Text = "Search";
             searchButton.UseVisualStyleBackColor = false;
             // 
-            // cityLabel
-            // 
-            cityLabel.AutoSize = true;
-            cityLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            cityLabel.Location = new Point(274, 175);
-            cityLabel.Name = "cityLabel";
-            cityLabel.Size = new Size(169, 23);
-            cityLabel.TabIndex = 2;
-            cityLabel.Text = "Choose your city:";
-            // 
-            // pictureBoxPizza
-            // 
-            pictureBoxPizza.Image = (Image)resources.GetObject("pictureBoxPizza.Image");
-            pictureBoxPizza.Location = new Point(250, 281);
-            pictureBoxPizza.Name = "pictureBoxPizza";
-            pictureBoxPizza.Size = new Size(675, 350);
-            pictureBoxPizza.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureBoxPizza.TabIndex = 3;
-            pictureBoxPizza.TabStop = false;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Century Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(274, 71);
-            label2.Name = "label2";
-            label2.Size = new Size(388, 38);
-            label2.TabIndex = 5;
-            label2.Text = "Enter your delivery address to check if our service \r\nis available in your location.";
-            // 
-            // vScrollBar1
-            // 
-            vScrollBar1.Location = new Point(1106, 0);
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Size = new Size(22, 720);
-            vScrollBar1.TabIndex = 6;
-            vScrollBar1.Scroll += vScrollBar1_Scroll;
-            // 
             // radioButtonCluj
             // 
             radioButtonCluj.AutoSize = true;
-            radioButtonCluj.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            radioButtonCluj.Location = new Point(513, 142);
+            radioButtonCluj.Font = new Font("Century Gothic", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButtonCluj.Location = new Point(72, 128);
             radioButtonCluj.Name = "radioButtonCluj";
-            radioButtonCluj.Size = new Size(64, 27);
+            radioButtonCluj.Size = new Size(93, 43);
             radioButtonCluj.TabIndex = 7;
             radioButtonCluj.TabStop = true;
             radioButtonCluj.Text = "Cluj";
@@ -104,10 +65,10 @@
             // radioButtonBucuresti
             // 
             radioButtonBucuresti.AutoSize = true;
-            radioButtonBucuresti.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            radioButtonBucuresti.Location = new Point(513, 175);
+            radioButtonBucuresti.Font = new Font("Century Gothic", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButtonBucuresti.Location = new Point(72, 180);
             radioButtonBucuresti.Name = "radioButtonBucuresti";
-            radioButtonBucuresti.Size = new Size(110, 27);
+            radioButtonBucuresti.Size = new Size(172, 43);
             radioButtonBucuresti.TabIndex = 8;
             radioButtonBucuresti.TabStop = true;
             radioButtonBucuresti.Text = "Bucuresti";
@@ -116,31 +77,57 @@
             // radioButtonTimisoara
             // 
             radioButtonTimisoara.AutoSize = true;
-            radioButtonTimisoara.Font = new Font("Century Gothic", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            radioButtonTimisoara.Location = new Point(513, 208);
+            radioButtonTimisoara.Font = new Font("Century Gothic", 24F, FontStyle.Regular, GraphicsUnit.Point);
+            radioButtonTimisoara.Location = new Point(72, 233);
             radioButtonTimisoara.Name = "radioButtonTimisoara";
-            radioButtonTimisoara.Size = new Size(116, 27);
+            radioButtonTimisoara.Size = new Size(179, 43);
             radioButtonTimisoara.TabIndex = 9;
             radioButtonTimisoara.TabStop = true;
             radioButtonTimisoara.Text = "Timisoara";
             radioButtonTimisoara.UseVisualStyleBackColor = true;
             // 
+            // panel1
+            // 
+            panel1.Controls.Add(searchButton);
+            panel1.Controls.Add(radioButtonCluj);
+            panel1.Controls.Add(radioButtonTimisoara);
+            panel1.Controls.Add(radioButtonBucuresti);
+            panel1.Location = new Point(622, 118);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(499, 568);
+            panel1.TabIndex = 11;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Century Gothic", 27.75F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label1.Location = new Point(78, 52);
+            label1.Name = "label1";
+            label1.Size = new Size(930, 46);
+            label1.TabIndex = 12;
+            label1.Text = "Choose yor city to check the available restaurants:";
+            // 
+            // panel2
+            // 
+            panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
+            panel2.BackgroundImageLayout = ImageLayout.Stretch;
+            panel2.Location = new Point(3, 118);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(623, 568);
+            panel2.TabIndex = 13;
+            // 
             // HomeControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.RosyBrown;
-            Controls.Add(radioButtonTimisoara);
-            Controls.Add(radioButtonBucuresti);
-            Controls.Add(radioButtonCluj);
-            Controls.Add(vScrollBar1);
-            Controls.Add(label2);
-            Controls.Add(pictureBoxPizza);
-            Controls.Add(cityLabel);
-            Controls.Add(searchButton);
+            BackColor = Color.White;
+            Controls.Add(panel2);
+            Controls.Add(label1);
+            Controls.Add(panel1);
             Name = "HomeControl";
-            Size = new Size(1128, 720);
-            ((System.ComponentModel.ISupportInitialize)pictureBoxPizza).EndInit();
+            Size = new Size(1123, 720);
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -148,12 +135,11 @@
         #endregion
 
         private Button searchButton;
-        private Label cityLabel;
-        private PictureBox pictureBoxPizza;
-        private Label label2;
-        private VScrollBar vScrollBar1;
         private RadioButton radioButtonCluj;
         private RadioButton radioButtonBucuresti;
         private RadioButton radioButtonTimisoara;
+        private Panel panel1;
+        private Label label1;
+        private Panel panel2;
     }
 }

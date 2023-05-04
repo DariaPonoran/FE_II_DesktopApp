@@ -16,5 +16,9 @@ namespace Proiect_II
         {
             InitializeComponent();
         }
+        private void alreadyHaveAccountSignUpButton_Click(object sender, EventArgs e)
+        {
+          
+        }
     }
 }

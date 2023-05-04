@@ -46,7 +46,6 @@ namespace Proiect_II
             signUpControl1.Visible = true;
             signUpControl1.BringToFront();
         }
-
         private void LoadImageInPictureBox()
         {
             string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Images", "pizzaLogo.png");
@@ -72,5 +71,7 @@ namespace Proiect_II
         {
 
         }
+
+
     }
 }

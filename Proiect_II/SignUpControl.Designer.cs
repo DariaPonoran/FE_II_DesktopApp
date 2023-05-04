@@ -28,111 +28,128 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBoxPass = new TextBox();
-            textBoxEmail = new TextBox();
-            passwordLabel = new Label();
-            emailLabel = new Label();
-            textBoxLastName = new TextBox();
-            textBoxFirstName = new TextBox();
-            lastNameLabel = new Label();
-            firstNameLabel = new Label();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignUpControl));
+            panel1 = new Panel();
+            panel2 = new Panel();
+            alreadyHaveAccountSignUpButton = new Button();
+            RegisterSignUpButton = new Button();
+            secondNameSignUpTextBox = new TextBox();
+            emailSignUpTextBox = new TextBox();
+            passwordSignUpTextBox = new TextBox();
+            firstNameSignUpTextBox = new TextBox();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
-            // textBoxPass
+            // panel1
             // 
-            textBoxPass.Location = new Point(249, 228);
-            textBoxPass.Name = "textBoxPass";
-            textBoxPass.Size = new Size(145, 23);
-            textBoxPass.TabIndex = 11;
+            panel1.BackgroundImage = (Image)resources.GetObject("panel1.BackgroundImage");
+            panel1.BackgroundImageLayout = ImageLayout.Stretch;
+            panel1.Location = new Point(320, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(803, 586);
+            panel1.TabIndex = 1;
             // 
-            // textBoxEmail
+            // panel2
             // 
-            textBoxEmail.Location = new Point(249, 188);
-            textBoxEmail.Name = "textBoxEmail";
-            textBoxEmail.Size = new Size(145, 23);
-            textBoxEmail.TabIndex = 10;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(alreadyHaveAccountSignUpButton);
+            panel2.Controls.Add(RegisterSignUpButton);
+            panel2.Controls.Add(secondNameSignUpTextBox);
+            panel2.Controls.Add(emailSignUpTextBox);
+            panel2.Controls.Add(passwordSignUpTextBox);
+            panel2.Controls.Add(firstNameSignUpTextBox);
+            panel2.Dock = DockStyle.Left;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(322, 586);
+            panel2.TabIndex = 2;
             // 
-            // passwordLabel
+            // alreadyHaveAccountSignUpButton
             // 
-            passwordLabel.AutoSize = true;
-            passwordLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            passwordLabel.Location = new Point(116, 225);
-            passwordLabel.Name = "passwordLabel";
-            passwordLabel.Size = new Size(100, 22);
-            passwordLabel.TabIndex = 9;
-            passwordLabel.Text = "Password:";
+            alreadyHaveAccountSignUpButton.BackColor = Color.Snow;
+            alreadyHaveAccountSignUpButton.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            alreadyHaveAccountSignUpButton.ForeColor = Color.Red;
+            alreadyHaveAccountSignUpButton.Location = new Point(1, 442);
+            alreadyHaveAccountSignUpButton.Name = "alreadyHaveAccountSignUpButton";
+            alreadyHaveAccountSignUpButton.Size = new Size(318, 30);
+            alreadyHaveAccountSignUpButton.TabIndex = 5;
+            alreadyHaveAccountSignUpButton.Text = "Already have an account?";
+            alreadyHaveAccountSignUpButton.UseVisualStyleBackColor = false;
+            alreadyHaveAccountSignUpButton.Click += alreadyHaveAccountSignUpButton_Click;
             // 
-            // emailLabel
+            // RegisterSignUpButton
             // 
-            emailLabel.AutoSize = true;
-            emailLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            emailLabel.Location = new Point(81, 185);
-            emailLabel.Name = "emailLabel";
-            emailLabel.Size = new Size(139, 22);
-            emailLabel.TabIndex = 8;
-            emailLabel.Text = "Email Address:";
+            RegisterSignUpButton.BackColor = Color.Tomato;
+            RegisterSignUpButton.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            RegisterSignUpButton.Location = new Point(43, 363);
+            RegisterSignUpButton.Name = "RegisterSignUpButton";
+            RegisterSignUpButton.Size = new Size(218, 35);
+            RegisterSignUpButton.TabIndex = 4;
+            RegisterSignUpButton.Text = "Register";
+            RegisterSignUpButton.UseVisualStyleBackColor = false;
             // 
-            // textBoxLastName
+            // secondNameSignUpTextBox
             // 
-            textBoxLastName.Location = new Point(249, 145);
-            textBoxLastName.Name = "textBoxLastName";
-            textBoxLastName.Size = new Size(145, 23);
-            textBoxLastName.TabIndex = 15;
+            secondNameSignUpTextBox.BorderStyle = BorderStyle.None;
+            secondNameSignUpTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
+            secondNameSignUpTextBox.Location = new Point(43, 183);
+            secondNameSignUpTextBox.Name = "secondNameSignUpTextBox";
+            secondNameSignUpTextBox.Size = new Size(218, 20);
+            secondNameSignUpTextBox.TabIndex = 3;
+            secondNameSignUpTextBox.Text = "Enter your second name:";
             // 
-            // textBoxFirstName
+            // emailSignUpTextBox
             // 
-            textBoxFirstName.Location = new Point(249, 105);
-            textBoxFirstName.Name = "textBoxFirstName";
-            textBoxFirstName.Size = new Size(145, 23);
-            textBoxFirstName.TabIndex = 14;
+            emailSignUpTextBox.BorderStyle = BorderStyle.None;
+            emailSignUpTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
+            emailSignUpTextBox.Location = new Point(43, 239);
+            emailSignUpTextBox.Name = "emailSignUpTextBox";
+            emailSignUpTextBox.Size = new Size(218, 20);
+            emailSignUpTextBox.TabIndex = 2;
+            emailSignUpTextBox.Text = "Enter your email address:";
             // 
-            // lastNameLabel
+            // passwordSignUpTextBox
             // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lastNameLabel.Location = new Point(108, 142);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new Size(112, 22);
-            lastNameLabel.TabIndex = 13;
-            lastNameLabel.Text = "Last Name:";
+            passwordSignUpTextBox.BorderStyle = BorderStyle.None;
+            passwordSignUpTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
+            passwordSignUpTextBox.Location = new Point(43, 295);
+            passwordSignUpTextBox.Name = "passwordSignUpTextBox";
+            passwordSignUpTextBox.Size = new Size(218, 20);
+            passwordSignUpTextBox.TabIndex = 1;
+            passwordSignUpTextBox.Text = "Enter your password:";
             // 
-            // firstNameLabel
+            // firstNameSignUpTextBox
             // 
-            firstNameLabel.AutoSize = true;
-            firstNameLabel.Font = new Font("Century Gothic", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            firstNameLabel.Location = new Point(112, 102);
-            firstNameLabel.Name = "firstNameLabel";
-            firstNameLabel.Size = new Size(108, 22);
-            firstNameLabel.TabIndex = 12;
-            firstNameLabel.Text = "First Name:";
+            firstNameSignUpTextBox.BorderStyle = BorderStyle.None;
+            firstNameSignUpTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
+            firstNameSignUpTextBox.Location = new Point(43, 127);
+            firstNameSignUpTextBox.Name = "firstNameSignUpTextBox";
+            firstNameSignUpTextBox.Size = new Size(218, 20);
+            firstNameSignUpTextBox.TabIndex = 0;
+            firstNameSignUpTextBox.Text = "Enter your first name:";
             // 
             // SignUpControl
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            Controls.Add(textBoxLastName);
-            Controls.Add(textBoxFirstName);
-            Controls.Add(lastNameLabel);
-            Controls.Add(firstNameLabel);
-            Controls.Add(textBoxPass);
-            Controls.Add(textBoxEmail);
-            Controls.Add(passwordLabel);
-            Controls.Add(emailLabel);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
             Name = "SignUpControl";
-            Size = new Size(503, 436);
+            Size = new Size(1123, 586);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBoxPass;
-        private TextBox textBoxEmail;
-        private Label passwordLabel;
-        private Label emailLabel;
-        private TextBox textBoxLastName;
-        private TextBox textBoxFirstName;
-        private Label lastNameLabel;
-        private Label firstNameLabel;
+        private Panel panel1;
+        private Panel panel2;
+        private Button alreadyHaveAccountSignUpButton;
+        private Button RegisterSignUpButton;
+        private TextBox secondNameSignUpTextBox;
+        private TextBox emailSignUpTextBox;
+        private TextBox passwordSignUpTextBox;
+        private TextBox firstNameSignUpTextBox;
     }
 }

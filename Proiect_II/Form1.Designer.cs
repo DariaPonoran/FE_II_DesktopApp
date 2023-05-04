@@ -165,26 +165,27 @@
             // 
             // signInControl1
             // 
-            signInControl1.Location = new Point(271, 162);
+            signInControl1.BackgroundImageLayout = ImageLayout.Stretch;
+            signInControl1.Location = new Point(0, 104);
             signInControl1.Name = "signInControl1";
-            signInControl1.Size = new Size(569, 376);
+            signInControl1.Size = new Size(1123, 586);
             signInControl1.TabIndex = 4;
             signInControl1.Load += signInControl1_Load;
             // 
             // homeControl1
             // 
             homeControl1.BackColor = Color.RosyBrown;
-            homeControl1.Location = new Point(-2, 104);
+            homeControl1.Location = new Point(0, 104);
             homeControl1.Name = "homeControl1";
             homeControl1.Size = new Size(1128, 720);
             homeControl1.TabIndex = 0;
             // 
             // signUpControl1
             // 
-            signUpControl1.Location = new Point(309, 162);
+            signUpControl1.Location = new Point(0, 104);
             signUpControl1.Name = "signUpControl1";
-            signUpControl1.Size = new Size(543, 407);
-            signUpControl1.TabIndex = 5;
+            signUpControl1.Size = new Size(1123, 586);
+            signUpControl1.TabIndex = 0;
             // 
             // Form1
             // 
