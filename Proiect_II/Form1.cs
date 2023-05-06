@@ -72,6 +72,14 @@ namespace Proiect_II
 
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            accountInfo1.BringToFront();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            shoppingCart1.BringToFront();
+        }
     }
 }

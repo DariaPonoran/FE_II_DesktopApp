@@ -37,10 +37,14 @@
             label1 = new Label();
             logoPicture = new PictureBox();
             panel3 = new Panel();
+            button3 = new Button();
+            button2 = new Button();
             homeButton = new Button();
             signInControl1 = new SignInControl();
             homeControl1 = new HomeControl();
             signUpControl1 = new SignUpControl();
+            accountInfo1 = new AccountInfo();
+            shoppingCart1 = new ShoppingCart();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoPicture).BeginInit();
             panel3.SuspendLayout();
@@ -50,7 +54,7 @@
             // 
             button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button1.BackColor = Color.DarkRed;
-            button1.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            button1.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button1.Image = (Image)resources.GetObject("button1.Image");
             button1.ImageAlign = ContentAlignment.MiddleLeft;
             button1.Location = new Point(0, 0);
@@ -65,7 +69,7 @@
             // 
             signUp.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             signUp.BackColor = Color.DarkRed;
-            signUp.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            signUp.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             signUp.ImageAlign = ContentAlignment.MiddleLeft;
             signUp.Location = new Point(867, 3);
             signUp.Name = "signUp";
@@ -80,7 +84,7 @@
             // 
             signIn.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             signIn.BackColor = Color.DarkRed;
-            signIn.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            signIn.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             signIn.ImageAlign = ContentAlignment.MiddleLeft;
             signIn.Location = new Point(998, 3);
             signIn.Name = "signIn";
@@ -117,11 +121,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Font = new Font("Century Schoolbook", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Font = new Font("Microsoft Sans Serif", 24F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.White;
             label1.Location = new Point(92, 9);
             label1.Name = "label1";
-            label1.Size = new Size(245, 37);
+            label1.Size = new Size(218, 37);
             label1.TabIndex = 1;
             label1.Text = "DAC Delivery";
             // 
@@ -138,6 +142,8 @@
             // panel3
             // 
             panel3.BackColor = Color.DarkRed;
+            panel3.Controls.Add(button3);
+            panel3.Controls.Add(button2);
             panel3.Controls.Add(homeButton);
             panel3.Controls.Add(signIn);
             panel3.Controls.Add(signUp);
@@ -147,11 +153,41 @@
             panel3.Size = new Size(1126, 45);
             panel3.TabIndex = 3;
             // 
+            // button3
+            // 
+            button3.BackColor = Color.Tomato;
+            button3.FlatStyle = FlatStyle.Flat;
+            button3.Image = (Image)resources.GetObject("button3.Image");
+            button3.ImageAlign = ContentAlignment.BottomLeft;
+            button3.Location = new Point(737, 4);
+            button3.Name = "button3";
+            button3.Size = new Size(124, 39);
+            button3.TabIndex = 5;
+            button3.Text = "      Cart";
+            button3.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button3.UseVisualStyleBackColor = false;
+            button3.Click += button3_Click;
+            // 
+            // button2
+            // 
+            button2.BackColor = Color.RosyBrown;
+            button2.FlatStyle = FlatStyle.Flat;
+            button2.Image = (Image)resources.GetObject("button2.Image");
+            button2.ImageAlign = ContentAlignment.BottomLeft;
+            button2.Location = new Point(130, 3);
+            button2.Name = "button2";
+            button2.Size = new Size(124, 39);
+            button2.TabIndex = 4;
+            button2.Text = "      Account";
+            button2.TextImageRelation = TextImageRelation.ImageBeforeText;
+            button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
+            // 
             // homeButton
             // 
             homeButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             homeButton.BackColor = Color.DarkRed;
-            homeButton.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            homeButton.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             homeButton.Image = (Image)resources.GetObject("homeButton.Image");
             homeButton.ImageAlign = ContentAlignment.MiddleLeft;
             homeButton.Location = new Point(3, 0);
@@ -187,11 +223,28 @@
             signUpControl1.Size = new Size(1123, 586);
             signUpControl1.TabIndex = 0;
             // 
+            // accountInfo1
+            // 
+            accountInfo1.Location = new Point(0, 104);
+            accountInfo1.Name = "accountInfo1";
+            accountInfo1.Size = new Size(1123, 586);
+            accountInfo1.TabIndex = 5;
+            // 
+            // shoppingCart1
+            // 
+            shoppingCart1.BackColor = SystemColors.Info;
+            shoppingCart1.Location = new Point(0, 104);
+            shoppingCart1.Name = "shoppingCart1";
+            shoppingCart1.Size = new Size(1123, 586);
+            shoppingCart1.TabIndex = 6;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1126, 688);
+            Controls.Add(shoppingCart1);
+            Controls.Add(accountInfo1);
             Controls.Add(signUpControl1);
             Controls.Add(homeControl1);
             Controls.Add(signInControl1);
@@ -220,5 +273,9 @@
         private SignInControl signInControl1;
         private HomeControl homeControl1;
         private SignUpControl signUpControl1;
+        private Button button2;
+        private Button button3;
+        private AccountInfo accountInfo1;
+        private ShoppingCart shoppingCart1;
     }
 }
