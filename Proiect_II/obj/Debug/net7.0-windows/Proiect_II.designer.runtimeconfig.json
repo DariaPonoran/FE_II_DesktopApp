@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\ponorandaria\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\ponorandaria\\.nuget\\packages"
+      "C:\\Users\\anapo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\anapo\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true

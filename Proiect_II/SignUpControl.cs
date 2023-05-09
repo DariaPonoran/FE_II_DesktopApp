@@ -18,7 +18,11 @@ namespace Proiect_II
         }
         private void alreadyHaveAccountSignUpButton_Click(object sender, EventArgs e)
         {
-          
+            Form parentForm = this.ParentForm;
+            SignInControl signInControl1 = new SignInControl();
+            parentForm.Controls.Add(signInControl1);
+            signInControl1.Dock = DockStyle.Fill;
+            signInControl1.BringToFront();
         }
     }
 }

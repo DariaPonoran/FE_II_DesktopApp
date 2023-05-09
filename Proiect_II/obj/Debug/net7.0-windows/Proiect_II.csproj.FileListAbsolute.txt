@@ -50,3 +50,31 @@ D:\FACULTATE\An3Sem2\II\Proiect\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-win
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AccountInfo.resources
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ShoppingCart.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\Cross.png
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\Home.png
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\pizza1.jpg
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\pizzaLogo.png
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.exe
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.deps.json
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.runtimeconfig.json
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.pdb
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.AssemblyReference.cache
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AccountInfo.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form1.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.HomeControl.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Properties.Resources.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ShoppingCart.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.SignInControl.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.SignUpControl.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.GenerateResource.cache
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.GeneratedMSBuildEditorConfig.editorconfig
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AssemblyInfoInputs.cache
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AssemblyInfo.cs
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.CoreCompileInputs.cache
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\refint\Proiect_II.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.pdb
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.genruntimeconfig.cache
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomePartner.resources

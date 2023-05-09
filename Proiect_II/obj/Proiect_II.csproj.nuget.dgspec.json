@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj": {}
+    "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {}
   },
   "projects": {
-    "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj": {
+    "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj",
+        "projectUniqueName": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
         "projectName": "Proiect_II",
-        "projectPath": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\Proiect_II.csproj",
-        "packagesPath": "C:\\Users\\ponorandaria\\.nuget\\packages\\",
-        "outputPath": "\\\\Mac\\Home\\Desktop\\Proiect_II\\Proiect_II\\obj\\",
+        "projectPath": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+        "packagesPath": "C:\\Users\\anapo\\.nuget\\packages\\",
+        "outputPath": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ponorandaria\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\anapo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
