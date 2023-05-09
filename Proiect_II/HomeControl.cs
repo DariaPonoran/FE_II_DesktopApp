@@ -43,5 +43,52 @@ namespace Proiect_II
             becomePartner1.Dock = DockStyle.Fill;
             becomePartner1.BringToFront();
         }
+
+        private void buttonRider_Click(object sender, EventArgs e)
+        {
+            Form parentForm = this.ParentForm;
+            BecomeRider becomeRider1 = new BecomeRider();
+            parentForm.Controls.Add(becomeRider1);
+            becomeRider1.Size = new Size(1283, 500);
+            becomeRider1.Dock = DockStyle.Fill;
+            becomeRider1.BringToFront();
+
+        }
+
+        private void searchButton_Click(object sender, EventArgs e)
+        {
+            Form parentForm = this.ParentForm;
+            if (radioButtonCluj.Checked)
+            {
+                ClujRestaurants clujRestaurants1 = new ClujRestaurants();
+                parentForm.Controls.Add(clujRestaurants1);
+                clujRestaurants1.Dock = DockStyle.Fill;
+                clujRestaurants1.BringToFront();
+            }
+            else
+            {
+                // Aici puteți adăuga cod pentru a gestiona cazul în care radioButtonCluj nu este activat.
+            }
+        }
+        /*private void searchButton_Click(object sender, EventArgs e)
+        {
+            Form parentForm = this.ParentForm;
+            if (radioButtonCluj.Checked)
+            {
+                DataSet dsRestaurants = new DataSet();
+                using (SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True"))
+                {
+                    myCon.Open();
+                    SqlDataAdapter daRestaurants = new SqlDataAdapter("SELECT * FROM Restaurante WHERE oras==Cluj", myCon);
+                    daRestaurants.Fill(dsRestaurants, "Restaurante");
+                }
+
+                ClujRestaurants clujRestaurants1 = new ClujRestaurants(dsRestaurants);
+                parentForm.Controls.Add(clujRestaurants1);
+                clujRestaurants1.Dock = DockStyle.Fill;
+                clujRestaurants1.BringToFront();
+            }
+        }*/
+
     }
 }

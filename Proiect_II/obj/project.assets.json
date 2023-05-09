@@ -8,19 +8,23 @@
     "net7.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\anapo\\.nuget\\packages\\": {}
+    "C:\\Users\\dell\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+      "projectUniqueName": "D:\\FACULTATE\\An3Sem2\\II\\Proiect3\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
       "projectName": "Proiect_II",
-      "projectPath": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
-      "packagesPath": "C:\\Users\\anapo\\.nuget\\packages\\",
-      "outputPath": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\obj\\",
+      "projectPath": "D:\\FACULTATE\\An3Sem2\\II\\Proiect3\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+      "packagesPath": "C:\\Users\\dell\\.nuget\\packages\\",
+      "outputPath": "D:\\FACULTATE\\An3Sem2\\II\\Proiect3\\FE_II_DesktopApp\\Proiect_II\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\anapo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -64,7 +68,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }

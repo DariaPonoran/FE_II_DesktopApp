@@ -17,6 +17,8 @@ namespace Proiect_II
             signInControl1.Visible = false;
             shoppingCart1.Visible = false;
             accountInfo1.Visible = false;
+            clujRestaurants1.Visible = false;
+            becomeRider1.Visible = false;
         }
 
         private void CloseButton_Click(object sender, EventArgs e)
@@ -31,19 +33,11 @@ namespace Proiect_II
             signInControl1.Visible = true;
             shoppingCart1.Visible = false;
             accountInfo1.Visible = false;
+            becomeRider1.Visible = false;
+            clujRestaurants1.Visible = false;
             signInControl1.BringToFront();
         }
 
-        private void homeButton_Click(object sender, EventArgs e)
-        {
-            signUpControl1.Visible = false;
-            homeControl1.Visible = true;
-            signInControl1.Visible = false;
-            shoppingCart1.Visible = false;
-            accountInfo1.Visible = false;
-            homeControl1.BringToFront();
-
-        }
 
         private void signUp_Click(object sender, EventArgs e)
         {
@@ -52,6 +46,8 @@ namespace Proiect_II
             signUpControl1.Visible = true;
             shoppingCart1.Visible = false;
             accountInfo1.Visible = false;
+            becomeRider1.Visible = false;
+            clujRestaurants1.Visible = false;
             signUpControl1.BringToFront();
         }
         private void LoadImageInPictureBox()
@@ -87,6 +83,8 @@ namespace Proiect_II
             signUpControl1.Visible = false;
             shoppingCart1.Visible = false;
             accountInfo1.Visible = true;
+            becomeRider1.Visible = false;
+            clujRestaurants1.Visible = false;
             accountInfo1.BringToFront();
         }
 
@@ -97,7 +95,27 @@ namespace Proiect_II
             signUpControl1.Visible = false;
             shoppingCart1.Visible = true;
             accountInfo1.Visible = false;
+            becomeRider1.Visible = false;
+            clujRestaurants1.Visible = false;
             shoppingCart1.BringToFront();
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void homeButon_Click_1(object sender, EventArgs e)
+        {
+            signUpControl1.Visible = false;
+            homeControl1.Visible = true;
+            signInControl1.Visible = false;
+            shoppingCart1.Visible = false;
+            accountInfo1.Visible = false;
+            becomeRider1.Visible = false;
+            clujRestaurants1.Visible = false;
+            homeControl1.BringToFront();
+
         }
     }
 }

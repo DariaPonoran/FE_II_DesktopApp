@@ -84,6 +84,12 @@
         aJg9ofWE1LEnfXRtw+JDAWdpXy+zQdXWHOjsb9z7GiP0VZP+NzONuWeYecBmAAAAAElFTkSuQmCC
 </value>
   </data>
+  <metadata name="signUp.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="signIn.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="closeButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
@@ -414,6 +420,38 @@
         lClTpkyZMmXKlClTpkyZMmXKlClTpkyZMmXKlClTpux7th9++P8BEbXvKwaRBG0AAAAASUVORK5CYII=
 </value>
   </data>
+  <metadata name="homeButon.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="homeButon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAIAAAC0Ujn1AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6
+        JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAACXBIWXMAAA68AAAOvAGVvHJJAAAAB3RJ
+        TUUH5wQNDBMVxVejmgAABIhJREFUSEu9lvtP21YUx4/tvBPHdmzn6SSEUEwiIDxH0lS0a9dO7dpqbPth
+        0jR1qzRWpE2M/tCyxw+bIA8IBAKFwvbP7mtf40SMNXQ/zDpxzj33nk++9/jkJtQmfai1rLuGu+tcWmCb
+        dikyHD2Ai7VIYUPEm6Rtk9qw7cqPHIJmOU3Sd0je1cY7utkmqcXFW6QeehInXuONN/PGm25zDn0w913o
+        Aa7SlYtmKjOZL/Q0s0nRbii3+eDp17Xb31SXVx980puoItjm4oPp/4p2uJzF3YsWplIG2ddcfrQj5k8j
+        +Sf1ZRZJFUZO5u82KXIttKu3TXInkp9KZoAQOA4GZzqTP1PGvptfIntYKZfPcjPbluo+AXYFumWVTENB
+        we0lypVMjnFxd53bo+bqwycsUh4fPzUqw9FuHdqkdILZ6USGOBLwIhIVJSLLcDDgBCGqWD6u8rg5HD1Y
+        h31xZDKWQKaH43EPqsrvdx79Vr/vVyQMeTvI2TsYrppxWzwaK3puVmtTFZcreD0/5iePAinYmjHBCQ6X
+        oacmSnatJaBtiGMO2uFaDSvtepOzqO9FHcIJ/dXinS5FG5wG65L0crYe1GKY4nnrM7KGcZgsNyhsP57+
+        F8dCs+eGOjRJPM3NVNQkEpheTzDw64ePTsO5bYqxBDinofyrW/cFv8+i28LnE5m3I3MNEh2JDD2gVz6/
+        sbS8+AGWsjYAdzVe7AnaFilMgS1Cx7An6M9jeYdub+6jm7f+MmvYtKsdqq03cDue5FJxHMsstXYdNqaq
+        B6SgCIyLu+sgeEixHybmncrgxVHdLO95UxbdlgvV8SbJb0dmF9N2//K8pYForTR/LhVdvYzLzNX+pzy2
+        NncTi1EWJMKp5kbPRueaeKQUpwZ2JxbuLixhwnPB9QWDv4STaEF88CUuMwQhbZdiG7xErBHtdDgP68vH
+        0SKwhLNxn0+8KC/4xQgm/KGgIAgev+91xOg4tdIaFLtkCFqJpK8LGrJEXFIUTlCW1ufqAGLW6hAsPfGl
+        12frkYT+3JyJh0Xyen4OA61iRYdPHAVyR4HsgOUQZOgNXgXRDIovcqVIJrlZu/fGlwIQWNTafiyk7AdS
+        neJCO5KVQiHO5wV6F1xSXyojizfMWr5YLYzB4GCIYIdie6T/BDRHOA26nLZnVg+CaaBQaGDdvtabnLZD
+        4lbIkMNhht4h9YD0Z37d6V77shyeQ7BLeucCnSUPfBzZTVJdoPtttMqKjtkOGnKoj0b+t4E4HpBgt4HV
+        CUB7eAS71p76aOygZX/RGbePtuk49dWr0f9QfTXa0tdvp/8f7fW+Dhv4bUXCs8BVtQ7oe4Rno6//B9V/
+        RLLHpJ2R/n0g0f+NYWiBQxBTJxTf5LX3QKsRkeP5j9XMipT6Qk7XojqSccDiGIJZJy1HCH4upT+T0/fE
+        OIY58g5Hb0G1KDKB17nYbgy7+d6FbuN/UND4srL4uDS9Up75tFRh9rR82dyplVLl8eTMV4XyjsVlEMf6
+        aJg9ofWE1LEnfXRtw+JDAWdpXy+zQdXWHOjsb9z7GiP0VZP+NzONuWeYecBmAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <metadata name="button3.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="button3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         /9j/4AAQSkZJRgABAQEBLAEsAAD/2wBDAAgGBgcGBQgHBwcJCQgKDBQNDAsLDBkSEw8UHRofHh0aHBwg
@@ -433,6 +471,9 @@
         DDGrXEmApyTgpgnjgHrivWKjMSNIrFAWTOGI5GeuKkoA/9k=
 </value>
   </data>
+  <metadata name="button2.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="button2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1
