@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {}
+    "D:\\An III\\Sem II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {}
   },
   "projects": {
-    "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {
+    "D:\\An III\\Sem II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+        "projectUniqueName": "D:\\An III\\Sem II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
         "projectName": "Proiect_II",
-        "projectPath": "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+        "projectPath": "D:\\An III\\Sem II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
         "packagesPath": "C:\\Users\\anapo\\.nuget\\packages\\",
-        "outputPath": "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\obj\\",
+        "outputPath": "D:\\An III\\Sem II\\FE_II_DesktopApp\\Proiect_II\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\anapo\\AppData\\Roaming\\NuGet\\NuGet.Config",

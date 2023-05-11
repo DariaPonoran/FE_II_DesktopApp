@@ -22,12 +22,12 @@ namespace Proiect_II
         {
             SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
-            if(textBoxSignInEmail.Text != string.Empty && textBoxSignInPass.Text != string.Empty)
+            if (textBoxSignInEmail.Text != string.Empty && textBoxSignInPass.Text != string.Empty)
             {
                 SqlCommand cmd = new SqlCommand("SELECT * FROM Client WHERE email = '" + textBoxSignInEmail.Text + "' AND parola = '" + textBoxSignInPass.Text + "'", myCon);
                 SqlDataReader dr;
                 dr = cmd.ExecuteReader();
-                if(dr.Read())
+                if (dr.Read())
                 {
                     dr.Close();
                     Form parentForm = this.ParentForm;

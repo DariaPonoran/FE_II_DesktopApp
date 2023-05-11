@@ -152,3 +152,40 @@ D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\refint\Proiect_II
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.pdb
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.genruntimeconfig.cache
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\Cross.png
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\Home.png
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\pizza1.jpg
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Images\pizzaLogo.png
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.exe
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.deps.json
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.runtimeconfig.json
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\Proiect_II.pdb
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.AssemblyReference.cache
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AccountInfo.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomePartner.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomeRider.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ClujRestaurants.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form1.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.HomeControl.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Properties.Resources.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ShoppingCart.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.SignInControl.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.SignUpControl.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.GenerateResource.cache
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.GeneratedMSBuildEditorConfig.editorconfig
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AssemblyInfoInputs.cache
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.AssemblyInfo.cs
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.CoreCompileInputs.cache
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.CopyComplete
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\refint\Proiect_II.dll
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.pdb
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.genruntimeconfig.cache
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
