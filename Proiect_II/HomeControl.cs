@@ -72,16 +72,19 @@ namespace Proiect_II
             }
         }
         */
+
+      //  D:\FACULTATE\An3Sem2\II\Proiect3\FE_II_DesktopApp\Proiect_II - path Catalin
+
         private void searchButton_Click(object sender, EventArgs e)
         {
             Form parentForm = this.ParentForm;
             if (radioButtonCluj.Checked)
             {
                 DataSet dsRestaurants = new DataSet();
-                using (SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\FACULTATE\An3Sem2\II\Proiect3\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True"))
+                using (SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True"))
                 {
                     myCon.Open();
-                    SqlDataAdapter daRestaurants = new SqlDataAdapter("SELECT * FROM Restaurante WHERE oras==Cluj", myCon);
+                    SqlDataAdapter daRestaurants = new SqlDataAdapter("SELECT * FROM Restaurant WHERE oras = 'Cluj' ", myCon);
                     daRestaurants.Fill(dsRestaurants, "Restaurante");
                 }
 

@@ -31,73 +31,78 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SignInControl));
             panel1 = new Panel();
             signInButton2 = new Button();
-            signInPasswordTextBox = new TextBox();
-            signInEmailTextBox = new TextBox();
             panel2 = new Panel();
+            textBoxSignInEmail = new TextBox();
+            textBoxSignInPass = new TextBox();
             panel1.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(textBoxSignInPass);
+            panel1.Controls.Add(textBoxSignInEmail);
             panel1.Controls.Add(signInButton2);
-            panel1.Controls.Add(signInPasswordTextBox);
-            panel1.Controls.Add(signInEmailTextBox);
             panel1.Dock = DockStyle.Left;
             panel1.Location = new Point(0, 0);
+            panel1.Margin = new Padding(3, 4, 3, 4);
             panel1.Name = "panel1";
-            panel1.Size = new Size(322, 586);
+            panel1.Size = new Size(368, 781);
             panel1.TabIndex = 0;
             // 
             // signInButton2
             // 
             signInButton2.BackColor = Color.Tomato;
             signInButton2.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            signInButton2.Location = new Point(48, 311);
+            signInButton2.Location = new Point(55, 439);
+            signInButton2.Margin = new Padding(3, 4, 3, 4);
             signInButton2.Name = "signInButton2";
-            signInButton2.Size = new Size(202, 33);
+            signInButton2.Size = new Size(258, 44);
             signInButton2.TabIndex = 2;
             signInButton2.Text = "Sign In";
             signInButton2.UseVisualStyleBackColor = false;
-            // 
-            // signInPasswordTextBox
-            // 
-            signInPasswordTextBox.BorderStyle = BorderStyle.None;
-            signInPasswordTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
-            signInPasswordTextBox.Location = new Point(48, 243);
-            signInPasswordTextBox.Name = "signInPasswordTextBox";
-            signInPasswordTextBox.Size = new Size(202, 20);
-            signInPasswordTextBox.TabIndex = 1;
-            signInPasswordTextBox.Text = "Type your password:";
-            // 
-            // signInEmailTextBox
-            // 
-            signInEmailTextBox.BorderStyle = BorderStyle.None;
-            signInEmailTextBox.Font = new Font("Century Gothic", 12F, FontStyle.Underline, GraphicsUnit.Point);
-            signInEmailTextBox.Location = new Point(48, 192);
-            signInEmailTextBox.Name = "signInEmailTextBox";
-            signInEmailTextBox.Size = new Size(202, 20);
-            signInEmailTextBox.TabIndex = 0;
-            signInEmailTextBox.Text = "Type your email:";
+            signInButton2.Click += signInButton2_Click;
             // 
             // panel2
             // 
             panel2.BackgroundImage = (Image)resources.GetObject("panel2.BackgroundImage");
             panel2.BackgroundImageLayout = ImageLayout.Stretch;
-            panel2.Location = new Point(317, 0);
+            panel2.Location = new Point(362, 0);
+            panel2.Margin = new Padding(3, 4, 3, 4);
             panel2.Name = "panel2";
-            panel2.Size = new Size(806, 586);
+            panel2.Size = new Size(921, 781);
             panel2.TabIndex = 1;
+            // 
+            // textBoxSignInEmail
+            // 
+            textBoxSignInEmail.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxSignInEmail.Location = new Point(55, 229);
+            textBoxSignInEmail.Margin = new Padding(3, 4, 3, 4);
+            textBoxSignInEmail.Name = "textBoxSignInEmail";
+            textBoxSignInEmail.PlaceholderText = "Email Address";
+            textBoxSignInEmail.Size = new Size(258, 32);
+            textBoxSignInEmail.TabIndex = 25;
+            // 
+            // textBoxSignInPass
+            // 
+            textBoxSignInPass.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            textBoxSignInPass.Location = new Point(55, 343);
+            textBoxSignInPass.Margin = new Padding(3, 4, 3, 4);
+            textBoxSignInPass.Name = "textBoxSignInPass";
+            textBoxSignInPass.PlaceholderText = "Password";
+            textBoxSignInPass.Size = new Size(258, 32);
+            textBoxSignInPass.TabIndex = 26;
             // 
             // SignInControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImageLayout = ImageLayout.Stretch;
             Controls.Add(panel2);
             Controls.Add(panel1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "SignInControl";
-            Size = new Size(1123, 586);
+            Size = new Size(1283, 781);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ResumeLayout(false);
@@ -106,9 +111,9 @@
         #endregion
 
         private Panel panel1;
-        private TextBox signInPasswordTextBox;
-        private TextBox signInEmailTextBox;
         private Panel panel2;
         private Button signInButton2;
+        private TextBox textBoxSignInPass;
+        private TextBox textBoxSignInEmail;
     }
 }
