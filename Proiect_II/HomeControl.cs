@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Linq;
@@ -54,7 +55,7 @@ namespace Proiect_II
             becomeRider1.BringToFront();
 
         }
-
+        /*
         private void searchButton_Click(object sender, EventArgs e)
         {
             Form parentForm = this.ParentForm;
@@ -70,13 +71,14 @@ namespace Proiect_II
                 // Aici puteți adăuga cod pentru a gestiona cazul în care radioButtonCluj nu este activat.
             }
         }
-        /*private void searchButton_Click(object sender, EventArgs e)
+        */
+        private void searchButton_Click(object sender, EventArgs e)
         {
             Form parentForm = this.ParentForm;
             if (radioButtonCluj.Checked)
             {
                 DataSet dsRestaurants = new DataSet();
-                using (SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\Database1.mdf;Integrated Security=True"))
+                using (SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\FACULTATE\An3Sem2\II\Proiect3\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True"))
                 {
                     myCon.Open();
                     SqlDataAdapter daRestaurants = new SqlDataAdapter("SELECT * FROM Restaurante WHERE oras==Cluj", myCon);
@@ -88,7 +90,7 @@ namespace Proiect_II
                 clujRestaurants1.Dock = DockStyle.Fill;
                 clujRestaurants1.BringToFront();
             }
-        }*/
+        }
 
     }
 }
