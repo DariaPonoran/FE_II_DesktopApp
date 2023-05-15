@@ -19,6 +19,9 @@
     <Compile Update="HomeControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="Order.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ShoppingCart.cs">
       <SubType>UserControl</SubType>
     </Compile>
