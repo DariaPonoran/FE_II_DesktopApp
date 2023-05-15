@@ -189,3 +189,14 @@ D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\refint\Pro
 D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.pdb
 D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.genruntimeconfig.cache
 D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomePartner.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomeRider.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ClujRestaurants.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.CopyComplete
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Order.resources

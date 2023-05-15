@@ -17,10 +17,12 @@ namespace Proiect_II
         {
             InitializeComponent();
         }
+        //Ana: @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True"
+        //Daria:@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\\Mac\Home\Desktop\Proiect_II\Proiect_II\Database1.mdf;Integrated Security=True"
 
         private void signInButton2_Click(object sender, EventArgs e)
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\Mac\Home\Desktop\Proiect_II\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
             if (textBoxSignInEmail.Text != string.Empty && textBoxSignInPass.Text != string.Empty)
             {

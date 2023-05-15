@@ -179,6 +179,7 @@
             button1.TabIndex = 10;
             button1.Text = "Place order";
             button1.UseVisualStyleBackColor = false;
+           
             // 
             // label6
             // 
