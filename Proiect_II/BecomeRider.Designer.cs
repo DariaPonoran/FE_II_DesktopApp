@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(BecomeRider));
-            button1 = new Button();
+            becomeRiderBtn = new Button();
             textBoxCurierEmail = new TextBox();
             pictureBox4 = new PictureBox();
             pictureBox3 = new PictureBox();
@@ -56,16 +56,17 @@
             panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // button1
+            // becomeRiderBtn
             // 
-            button1.BackColor = Color.Tomato;
-            button1.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            button1.Location = new Point(72, 751);
-            button1.Name = "button1";
-            button1.Size = new Size(499, 36);
-            button1.TabIndex = 28;
-            button1.Text = "Become part of the team";
-            button1.UseVisualStyleBackColor = false;
+            becomeRiderBtn.BackColor = Color.Tomato;
+            becomeRiderBtn.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            becomeRiderBtn.Location = new Point(72, 751);
+            becomeRiderBtn.Name = "becomeRiderBtn";
+            becomeRiderBtn.Size = new Size(499, 36);
+            becomeRiderBtn.TabIndex = 28;
+            becomeRiderBtn.Text = "Become part of the team";
+            becomeRiderBtn.UseVisualStyleBackColor = false;
+            becomeRiderBtn.Click += becomeRiderBtn_Click;
             // 
             // textBoxCurierEmail
             // 
@@ -268,7 +269,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonHighlight;
-            Controls.Add(button1);
+            Controls.Add(becomeRiderBtn);
             Controls.Add(textBoxCurierEmail);
             Controls.Add(textBoxCurierCity);
             Controls.Add(textBoxCurierPhoneNumber);
@@ -291,7 +292,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button becomeRiderBtn;
         private TextBox textBoxCurierEmail;
         private PictureBox pictureBox4;
         private PictureBox pictureBox3;

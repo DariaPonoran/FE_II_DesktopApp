@@ -55,7 +55,7 @@ namespace Proiect_II
             becomeRider1.BringToFront();
 
         }
-        /*
+        
         private void searchButton_Click(object sender, EventArgs e)
         {
             Form parentForm = this.ParentForm;
@@ -68,13 +68,29 @@ namespace Proiect_II
             }
             else
             {
-                // Aici puteți adăuga cod pentru a gestiona cazul în care radioButtonCluj nu este activat.
+                if (radioButtonBucuresti.Checked)
+                {
+                    BucurestiRestaurants bucurestiRestaurants1 = new BucurestiRestaurants();
+                    parentForm.Controls.Add(bucurestiRestaurants1);
+                    bucurestiRestaurants1.Dock = DockStyle.Fill;
+                    bucurestiRestaurants1.BringToFront();
+                }
+                else
+                {
+                    if (radioButtonTimisoara.Checked)
+                    {
+                        TimisoaraRestaurants timisoaraRestaurants1 = new TimisoaraRestaurants();
+                        parentForm.Controls.Add(timisoaraRestaurants1);
+                        timisoaraRestaurants1.Dock = DockStyle.Fill;
+                        timisoaraRestaurants1.BringToFront();
+                    }
+                }
             }
         }
-        */
+        
 
       //  D:\FACULTATE\An3Sem2\II\Proiect3\FE_II_DesktopApp\Proiect_II - path Catalin
-
+      /*
         private void searchButton_Click(object sender, EventArgs e)
         {
             Form parentForm = this.ParentForm;
@@ -94,6 +110,7 @@ namespace Proiect_II
                 clujRestaurants1.BringToFront();
             }
         }
+      */
 
     }
 }

@@ -52,6 +52,9 @@
             clujRestaurants1 = new ClujRestaurants();
             becomeRider1 = new BecomeRider();
             order1 = new Order();
+            bucurestiRestaurants1 = new BucurestiRestaurants();
+            timisoaraRestaurants1 = new TimisoaraRestaurants();
+            restaurantProductsUserControl1 = new RestaurantProductsUserControl();
             panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)logoPicture).BeginInit();
             panel3.SuspendLayout();
@@ -185,6 +188,7 @@
             // 
             button5.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button5.BackColor = Color.DarkRed;
+            button5.FlatStyle = FlatStyle.Flat;
             button5.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button5.ImageAlign = ContentAlignment.MiddleLeft;
             button5.Location = new Point(1000, 3);
@@ -201,6 +205,7 @@
             button4.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             button4.BackColor = Color.DarkRed;
             button4.FlatAppearance.BorderColor = Color.Black;
+            button4.FlatStyle = FlatStyle.Flat;
             button4.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button4.ImageAlign = ContentAlignment.MiddleLeft;
             button4.Location = new Point(872, 3);
@@ -220,7 +225,7 @@
             homeButon.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             homeButon.Image = (Image)resources.GetObject("homeButon.Image");
             homeButon.ImageAlign = ContentAlignment.MiddleLeft;
-            homeButon.Location = new Point(12, 0);
+            homeButon.Location = new Point(3, 1);
             homeButon.Name = "homeButon";
             homeButon.Size = new Size(112, 42);
             homeButon.TabIndex = 6;
@@ -253,7 +258,7 @@
             button2.Font = new Font("Microsoft Sans Serif", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             button2.Image = (Image)resources.GetObject("button2.Image");
             button2.ImageAlign = ContentAlignment.BottomLeft;
-            button2.Location = new Point(130, 2);
+            button2.Location = new Point(141, 3);
             button2.Name = "button2";
             button2.Size = new Size(144, 39);
             button2.TabIndex = 4;
@@ -346,12 +351,36 @@
             order1.Size = new Size(1123, 586);
             order1.TabIndex = 10;
             // 
+            // bucurestiRestaurants1
+            // 
+            bucurestiRestaurants1.Location = new Point(3, 103);
+            bucurestiRestaurants1.Name = "bucurestiRestaurants1";
+            bucurestiRestaurants1.Size = new Size(1123, 586);
+            bucurestiRestaurants1.TabIndex = 11;
+            // 
+            // timisoaraRestaurants1
+            // 
+            timisoaraRestaurants1.Location = new Point(2, 103);
+            timisoaraRestaurants1.Name = "timisoaraRestaurants1";
+            timisoaraRestaurants1.Size = new Size(1123, 586);
+            timisoaraRestaurants1.TabIndex = 12;
+            // 
+            // restaurantProductsUserControl1
+            // 
+            restaurantProductsUserControl1.Location = new Point(0, 103);
+            restaurantProductsUserControl1.Name = "restaurantProductsUserControl1";
+            restaurantProductsUserControl1.Size = new Size(1123, 586);
+            restaurantProductsUserControl1.TabIndex = 13;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoScroll = true;
-            ClientSize = new Size(1126, 591);
+            ClientSize = new Size(1144, 630);
+            Controls.Add(restaurantProductsUserControl1);
+            Controls.Add(timisoaraRestaurants1);
+            Controls.Add(bucurestiRestaurants1);
             Controls.Add(order1);
             Controls.Add(becomeRider1);
             Controls.Add(clujRestaurants1);
@@ -397,5 +426,8 @@
         private Button button4;
         private Button button6;
         private Order order1;
+        private BucurestiRestaurants bucurestiRestaurants1;
+        private TimisoaraRestaurants timisoaraRestaurants1;
+        private RestaurantProductsUserControl restaurantProductsUserControl1;
     }
 }

@@ -18,6 +18,9 @@ namespace Proiect_II
             shoppingCart1.Visible = false;
             accountInfo1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             becomeRider1.Visible = false;
             order1.Visible = false;
         }
@@ -36,6 +39,9 @@ namespace Proiect_II
             accountInfo1.Visible = false;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             order1.Visible = false;
             signInControl1.BringToFront();
         }
@@ -50,6 +56,9 @@ namespace Proiect_II
             accountInfo1.Visible = false;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             order1.Visible = false;
             signUpControl1.BringToFront();
         }
@@ -88,6 +97,9 @@ namespace Proiect_II
             accountInfo1.Visible = true;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             order1.Visible = false;
             accountInfo1.BringToFront();
         }
@@ -101,6 +113,9 @@ namespace Proiect_II
             accountInfo1.Visible = false;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             order1.Visible = true;
             shoppingCart1.BringToFront();
         }
@@ -119,6 +134,9 @@ namespace Proiect_II
             accountInfo1.Visible = false;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
             order1.Visible = false;
             homeControl1.BringToFront();
 
@@ -135,6 +153,9 @@ namespace Proiect_II
             shoppingCart1.Visible = true;
             becomeRider1.Visible = false;
             clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
         }
     }
 }

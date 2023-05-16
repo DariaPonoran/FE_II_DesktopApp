@@ -10,6 +10,9 @@
     <Compile Update="BecomeRider.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="BucurestiRestaurants.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ClujRestaurants.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -22,6 +25,9 @@
     <Compile Update="Order.cs">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Update="RestaurantProductsUserControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="ShoppingCart.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -29,6 +35,9 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="SignUpControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="TimisoaraRestaurants.cs">
       <SubType>UserControl</SubType>
     </Compile>
   </ItemGroup>
