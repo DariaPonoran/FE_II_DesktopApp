@@ -6,9 +6,14 @@ namespace Proiect_II
 {
     public partial class Form1 : Form
     {
-
-        public Form1()
+        public static class UserEmailHolder
         {
+            public static string Email { get; set; }
+        }
+        
+        public Form1()
+        { 
+            UserEmailHolder.Email = string.Empty;
             InitializeComponent();
             LoadImageInPictureBox();
             LoadImageOnButtonClose(closeButton, "Cross.png");
@@ -23,6 +28,11 @@ namespace Proiect_II
             restaurantProductsUserControl1.Visible = false;
             becomeRider1.Visible = false;
             order1.Visible = false;
+            if (UserEmailHolder.Email != string.Empty)
+            {
+                button5.Visible = false;
+                button4.Visible = false;
+            }
         }
 
         private void CloseButton_Click(object sender, EventArgs e)

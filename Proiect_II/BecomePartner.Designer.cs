@@ -126,6 +126,7 @@
             buttonAddPartner.TabIndex = 14;
             buttonAddPartner.Text = "Sign Up";
             buttonAddPartner.UseVisualStyleBackColor = false;
+            buttonAddPartner.Click += buttonAddPartner_Click;
             // 
             // BecomePartner
             // 

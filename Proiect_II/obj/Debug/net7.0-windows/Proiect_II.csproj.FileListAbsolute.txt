@@ -241,3 +241,8 @@ D:\FACULTATE\An3Sem2\II\Proiect4\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-wi
 D:\FACULTATE\An3Sem2\II\Proiect4\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BucurestiRestaurants.resources
 D:\FACULTATE\An3Sem2\II\Proiect4\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
 D:\FACULTATE\An3Sem2\II\Proiect4\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BucurestiRestaurants.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Order.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
+D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources

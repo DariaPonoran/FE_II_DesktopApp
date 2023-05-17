@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Proiect_II.Form1;
 
 namespace Proiect_II
 {
@@ -22,7 +23,7 @@ namespace Proiect_II
 
         private void signInButton2_Click(object sender, EventArgs e)
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=\Mac\Home\Desktop\Proiect_II\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
             if (textBoxSignInEmail.Text != string.Empty && textBoxSignInPass.Text != string.Empty)
             {
@@ -33,10 +34,12 @@ namespace Proiect_II
                 {
                     dr.Close();
                     Form parentForm = this.ParentForm;
-                    HomeControl homeControl = new HomeControl();
-                    parentForm.Controls.Add(homeControl);
-                    homeControl.Dock = DockStyle.Fill;
-                    homeControl.BringToFront();
+                    AccountInfo accountInfo = new AccountInfo();
+                    parentForm.Controls.Add(accountInfo);
+                    accountInfo.Dock = DockStyle.Fill;
+                    accountInfo.BringToFront();
+                    string email = textBoxSignInEmail.Text;
+                    UserEmailHolder.Email = email;
                 }
                 else
                 {
