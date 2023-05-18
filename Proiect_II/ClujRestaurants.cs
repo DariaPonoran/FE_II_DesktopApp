@@ -21,7 +21,7 @@ namespace Proiect_II
 
         private void LoadRestaurantData()
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
 
             string selectCommand = "SELECT * FROM Restaurant WHERE Oras = 'Cluj-Napoca'";
@@ -77,6 +77,7 @@ namespace Proiect_II
                 newButton.Name = "button" + dr["id_restaurant"].ToString();
                 newButton.Text = "Order"; // Change this as needed
                 newButton.Size = new Size(175, 40); // Change this as needed
+                newButton.Tag = dr["id_restaurant"];
                 newButton.Click += (sender, e) =>
                 {
                     Button clickedButton = sender as Button;
@@ -84,8 +85,10 @@ namespace Proiect_II
                     RestaurantProductsUserControl restaurantProductsControl = new RestaurantProductsUserControl();
                     restaurantProductsControl.LoadRestaurantProducts(restaurantId);
                     this.Parent.Controls.Add(restaurantProductsControl);
+                    restaurantProductsControl.Location = new Point(0, 0);
                     restaurantProductsControl.BringToFront();
                 };
+
 
                 newPanel.Controls.Add(newButton);
 

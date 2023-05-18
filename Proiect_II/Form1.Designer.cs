@@ -369,6 +369,7 @@
             // 
             restaurantProductsUserControl1.Location = new Point(0, 103);
             restaurantProductsUserControl1.Name = "restaurantProductsUserControl1";
+            restaurantProductsUserControl1.RestaurantId = 0;
             restaurantProductsUserControl1.Size = new Size(1123, 586);
             restaurantProductsUserControl1.TabIndex = 13;
             // 

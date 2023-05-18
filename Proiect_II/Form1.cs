@@ -10,9 +10,9 @@ namespace Proiect_II
         {
             public static string Email { get; set; }
         }
-        
+
         public Form1()
-        { 
+        {
             UserEmailHolder.Email = string.Empty;
             InitializeComponent();
             LoadImageInPictureBox();

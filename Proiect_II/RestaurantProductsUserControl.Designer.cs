@@ -36,6 +36,7 @@
             AutoScaleMode = AutoScaleMode.Font;
             Name = "RestaurantProductsUserControl";
             Size = new Size(1123, 586);
+            Load += RestaurantProductsUserControl_Load;
             ResumeLayout(false);
         }
 
