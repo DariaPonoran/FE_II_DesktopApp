@@ -68,20 +68,21 @@ namespace Proiect_II
             string strRegex = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
             Regex regex_email = new Regex(strRegex, RegexOptions.IgnoreCase);
             string strRegexTel = @"(^[0-9]{10}$)";
-            string strRegexNr = @"(^[0-9]{2}$)";
+            string strRegexNr = @"(^[0-9]{1,2}$)";
             Regex regex_nr = new Regex(strRegexNr);
             Regex regex_tel = new Regex(strRegexTel);
             string strRegBuild = @"^([A-Z][0-9])$";
-            if (regex.IsMatch(textBoxLastName.Text) && regex.IsMatch(textBoxFirstName.Text) && regex_email.IsMatch(textBoxEmail.Text) && regex_tel.IsMatch(textBoxPhoneNumber.Text) && regex.IsMatch(textBoxCity.Text) && regex.IsMatch(textBoxStreet.Text) && regex_nr.IsMatch(textBoxNumber.Text) && regex_nr.IsMatch(textBoxApartament.Text))
+            Regex regex_build = new Regex(strRegBuild);
+            if (regex.IsMatch(textBoxLastName.Text) && regex.IsMatch(textBoxFirstName.Text) && regex_email.IsMatch(textBoxEmail.Text) && regex_tel.IsMatch(textBoxPhoneNumber.Text) && regex.IsMatch(textBoxCity.Text) && regex.IsMatch(textBoxStreet.Text) && regex_nr.IsMatch(textBoxNumber.Text) && regex_nr.IsMatch(textBoxApartament.Text) && regex_build.IsMatch(textBoxBuilding.Text))
             {
-            string address = textBoxStreet.Text + " " + textBoxApartament.Text + " " + textBoxBuilding.Text + " " + textBoxNumber.Text;
-            string command = "UPDATE Client set nume= '" + textBoxLastName.Text + "', prenume = '" + textBoxFirstName.Text + "', email = '" + textBoxEmail.Text + "', telefon = '" + textBoxPhoneNumber.Text + "', oras = '" + textBoxCity.Text + "', adresa = '" + address +"' where email = '" + textBoxEmail.Text + "'";
-            using (SqlCommand cmd = new SqlCommand(command, myCon))
-            {
-                myCon.Open();
-                cmd.ExecuteNonQuery();
-            }
-            MessageBox.Show("Account Details Updated", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                string address = textBoxStreet.Text + " " + textBoxApartament.Text + " " + textBoxBuilding.Text + " " + textBoxNumber.Text;
+                string command = "UPDATE Client set nume= '" + textBoxLastName.Text + "', prenume = '" + textBoxFirstName.Text + "', email = '" + textBoxEmail.Text + "', telefon = '" + textBoxPhoneNumber.Text + "', oras = '" + textBoxCity.Text + "', adresa = '" + address + "' where email = '" + textBoxEmail.Text + "'";
+                using (SqlCommand cmd = new SqlCommand(command, myCon))
+                {
+                    myCon.Open();
+                    cmd.ExecuteNonQuery();
+                }
+                MessageBox.Show("Account Details Updated", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {

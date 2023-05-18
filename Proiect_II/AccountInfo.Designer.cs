@@ -207,7 +207,7 @@
             // 
             // textBoxBuilding
             // 
-            textBoxBuilding.Location = new Point(665, 517);
+            textBoxBuilding.Location = new Point(382, 520);
             textBoxBuilding.Margin = new Padding(3, 4, 3, 4);
             textBoxBuilding.Name = "textBoxBuilding";
             textBoxBuilding.Size = new Size(116, 27);
@@ -215,7 +215,7 @@
             // 
             // textBoxApartament
             // 
-            textBoxApartament.Location = new Point(382, 517);
+            textBoxApartament.Location = new Point(665, 520);
             textBoxApartament.Margin = new Padding(3, 4, 3, 4);
             textBoxApartament.Name = "textBoxApartament";
             textBoxApartament.Size = new Size(114, 27);
