@@ -288,3 +288,7 @@ D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-wi
 D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.pdb
 D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.genruntimeconfig.cache
 D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\ref\Proiect_II.dll
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BucurestiRestaurants.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
+\\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources

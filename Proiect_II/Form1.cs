@@ -167,5 +167,24 @@ namespace Proiect_II
             timisoaraRestaurants1.Visible = false;
             restaurantProductsUserControl1.Visible = false;
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            InitializeComponent();
+            LoadImageInPictureBox();
+            LoadImageOnButtonClose(closeButton, "Cross.png");
+            LoadImageOnButton(homeButton, "Home.png");
+            homeControl1.Visible = false;
+            signUpControl1.Visible = false;
+            signInControl1.Visible = false;
+            shoppingCart1.Visible = false;
+            accountInfo1.Visible = false;
+            clujRestaurants1.Visible = false;
+            bucurestiRestaurants1.Visible = false;
+            timisoaraRestaurants1.Visible = false;
+            restaurantProductsUserControl1.Visible = false;
+            becomeRider1.Visible = false;
+            order1.Visible = false;
+        }
     }
 }
