@@ -38,6 +38,11 @@ namespace Proiect_II
             public static string Name { get; set; }
             public static string Prenume { get; set; }
         }
+        public static class ActiveOrder
+        {
+            public static Boolean Active { get; set; }
+        }
+
 
         public static class ItemsClass
         {
@@ -218,8 +223,6 @@ namespace Proiect_II
         private void button8_Click(object sender, EventArgs e)
         {
             Form1 form = new Form1();
-
-            // Show the form
             form.Show();
         }
     }

@@ -20,7 +20,7 @@ namespace Proiect_II
         }
         private void LoadRestaurantData()
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
 
             string selectCommand = "SELECT * FROM Restaurant WHERE Oras = 'Timisoara'";

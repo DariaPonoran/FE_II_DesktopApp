@@ -297,3 +297,17 @@ D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Order.
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
 D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\System.Data.SqlClient.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-arm64\native\sni.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x64\native\sni.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win-x86\native\sni.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\bin\Debug\net7.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BecomeRider.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BucurestiRestaurants.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.ClujRestaurants.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Order.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
+D:\An III\II\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.csproj.CopyComplete

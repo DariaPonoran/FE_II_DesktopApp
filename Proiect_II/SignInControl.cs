@@ -23,7 +23,7 @@ namespace Proiect_II
 
         private void signInButton2_Click(object sender, EventArgs e)
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
             if (textBoxSignInEmail.Text != string.Empty && textBoxSignInPass.Text != string.Empty)
             {
@@ -46,7 +46,7 @@ namespace Proiect_II
                         form1.button5.Visible = false;
                         form1.button2.Visible = true;
                         form1.button3.Visible = true;
-                        form1.button6.Visible = true;
+                        form1.button6.Visible = false;
                         form1.button8.Visible = true;
                     }
 

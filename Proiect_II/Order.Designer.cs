@@ -56,7 +56,7 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(37, 280);
+            label2.Location = new Point(29, 281);
             label2.Name = "label2";
             label2.Size = new Size(267, 27);
             label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label3.Location = new Point(324, 283);
+            label3.Location = new Point(296, 281);
             label3.Name = "label3";
             label3.Size = new Size(0, 23);
             label3.TabIndex = 2;
@@ -75,7 +75,7 @@
             // 
             label4.AutoSize = true;
             label4.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label4.Location = new Point(39, 387);
+            label4.Location = new Point(29, 386);
             label4.Name = "label4";
             label4.Size = new Size(208, 27);
             label4.TabIndex = 3;
@@ -85,7 +85,7 @@
             // 
             label5.AutoSize = true;
             label5.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label5.Location = new Point(251, 387);
+            label5.Location = new Point(237, 389);
             label5.Name = "label5";
             label5.Size = new Size(0, 23);
             label5.TabIndex = 4;
@@ -94,7 +94,7 @@
             // 
             label6.AutoSize = true;
             label6.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
-            label6.Location = new Point(39, 479);
+            label6.Location = new Point(37, 478);
             label6.Name = "label6";
             label6.Size = new Size(82, 27);
             label6.TabIndex = 5;
@@ -104,7 +104,7 @@
             // 
             label7.AutoSize = true;
             label7.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            label7.Location = new Point(127, 501);
+            label7.Location = new Point(119, 481);
             label7.Name = "label7";
             label7.Size = new Size(0, 23);
             label7.TabIndex = 6;
@@ -147,6 +147,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "Order";
             Size = new Size(1283, 781);
+            Load += LoadOrder;
             Click += LoadOrder;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);

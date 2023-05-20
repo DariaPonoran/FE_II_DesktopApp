@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wKBeBqdlB+nhqp5I+8DAyy3qzfTXtytL/CQeD6DlX+aHzJwQAnrzXTsExP6RXrUYWasiuv7FxFJ9sYrpkwef7Q==",
+  "dgSpecHash": "tQLEBBzCv2/ox58o4KhyHE3Di21wRttI5dT65Dr86LINje9Qtg9ueLO1qfDjOUykV6+8uHDGFGo2/Dx7CiZt/A==",
   "success": true,
-  "projectFilePath": "D:\\An III\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
+  "projectFilePath": "D:\\An III\\II\\FE_II_DesktopApp\\Proiect_II\\Proiect_II.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\anapo\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\anapo\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

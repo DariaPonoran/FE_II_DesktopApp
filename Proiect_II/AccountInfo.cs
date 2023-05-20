@@ -31,7 +31,7 @@ namespace Proiect_II
 
         private void load_AccountInfo(object sender, EventArgs e)
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
             DataSet dsClient = new DataSet();
             SqlDataAdapter daClient = new SqlDataAdapter("SELECT * FROM Client", myCon);
@@ -54,10 +54,27 @@ namespace Proiect_II
                     if (dr.ItemArray.GetValue(7).ToString() != "")
                     {
                         string[] words = dr.ItemArray.GetValue(7).ToString().Split(' ');
-                        textBoxStreet.Text = words[0];
-                        textBoxApartament.Text = words[1];
-                        textBoxBuilding.Text = words[2];
-                        textBoxNumber.Text = words[3];
+                        if(words.Length == 4)
+                        {
+                            textBoxStreet.Text = words[0];
+                            textBoxApartament.Text = words[1];
+                            textBoxBuilding.Text = words[2];
+                            textBoxNumber.Text = words[3];
+                        }
+                        else if(words.Length == 5)
+                        {
+                            textBoxStreet.Text = words[0] + " " + words[1];
+                            textBoxApartament.Text = words[2];
+                            textBoxBuilding.Text = words[3];
+                            textBoxNumber.Text = words[4];
+                        }
+                        else if (words.Length == 6)
+                        {
+                            textBoxStreet.Text = words[0] + " " + words[1] + " " + words[2];
+                            textBoxApartament.Text = words[3];
+                            textBoxBuilding.Text = words[4];
+                            textBoxNumber.Text = words[5];
+                        }
                     }
                 }
             }
@@ -65,7 +82,7 @@ namespace Proiect_II
 
         private void buttonSaveMod_Click(object sender, EventArgs e)
         {
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\Sem II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             Regex regex = new Regex("^([A-Z][a-zA-Z]*)(?=.*[a-z])(?=[^!@#$%&*_+/'?~`,.^()=])");
             string strRegex = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
             Regex regex_email = new Regex(strRegex, RegexOptions.IgnoreCase);

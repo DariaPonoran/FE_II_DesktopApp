@@ -16,10 +16,11 @@ namespace Proiect_II
     public partial class RestaurantProductsUserControl : UserControl
     {
         public int RestaurantId { get; set; }
+
         int count = 0;
         ObservableCollection<string> product_names = new ObservableCollection<string>();
-        ObservableCollection<string> product_names_copy = new ObservableCollection<string>();
         List<string> product_price = new List<string>();
+
         public RestaurantProductsUserControl()
         {
             InitializeComponent();
@@ -29,7 +30,7 @@ namespace Proiect_II
         {
             Controls.Clear();
 
-            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
+            SqlConnection myCon = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=D:\An III\II\FE_II_DesktopApp\Proiect_II\Database1.mdf;Integrated Security=True");
             myCon.Open();
 
             string selectCommand = "SELECT * FROM Produs WHERE id_restaurant = @RestaurantId";
