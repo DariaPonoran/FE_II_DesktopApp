@@ -44,6 +44,8 @@ namespace Proiect_II
             {
                 if (email == dr.ItemArray.GetValue(3).ToString())
                 {
+                    ClientHolder.IDClient = int.Parse(dr.ItemArray.GetValue(0).ToString());
+                    ClientAddress.Address = dr.ItemArray.GetValue(7).ToString();
                     textBoxFirstName.Text = dr.ItemArray.GetValue(2).ToString();
                     textBoxLastName.Text = dr.ItemArray.GetValue(1).ToString();
                     textBoxEmail.Text = dr.ItemArray.GetValue(3).ToString();

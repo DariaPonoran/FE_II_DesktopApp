@@ -32,10 +32,11 @@
             // 
             // RestaurantProductsUserControl
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            Margin = new Padding(3, 4, 3, 4);
             Name = "RestaurantProductsUserControl";
-            Size = new Size(1123, 586);
+            Size = new Size(1283, 781);
             Load += RestaurantProductsUserControl_Load;
             ResumeLayout(false);
         }

@@ -40,6 +40,16 @@ namespace Proiect_II
                     accountInfo.BringToFront();
                     string email = textBoxSignInEmail.Text;
                     UserEmailHolder.Email = email;
+                    if(parentForm is Form1 form1)
+                    {
+                        form1.button4.Visible = false;
+                        form1.button5.Visible = false;
+                        form1.button2.Visible = true;
+                        form1.button3.Visible = true;
+                        form1.button6.Visible = true;
+                        form1.button8.Visible = true;
+                    }
+
                 }
                 else
                 {

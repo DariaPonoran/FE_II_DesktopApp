@@ -292,3 +292,8 @@ D:\FACULTATE\An3Sem2\II\Proiect5\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-wi
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
 \\Mac\Home\Desktop\Proiect_II\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
+D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.BucurestiRestaurants.resources
+D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Order.resources
+D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.RestaurantProductsUserControl.resources
+D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.TimisoaraRestaurants.resources
+D:\An III\FE_II_DesktopApp\Proiect_II\obj\Debug\net7.0-windows\Proiect_II.Form2.resources
