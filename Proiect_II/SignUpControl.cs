@@ -62,6 +62,16 @@ namespace Proiect_II
                             SqlCommand cmd1 = new SqlCommand("INSERT INTO [Client] (nume,prenume,email,telefon,oras,parola) Values ('" + textBoxClientNumeFam.Text + "','" + textBoxClientPrenume.Text + "','" + textBoxClientEmail.Text + "','" + textBoxClientNrTel.Text + "','" + textBoxClientOras.Text + "','" + textBoxClientPass.Text + "')", myCon);
                             cmd1.ExecuteNonQuery();
                             MessageBox.Show("Your Account is created . Please login now.", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                            Form parentForm = this.ParentForm;
+                            SignInControl signInControl1 = new SignInControl();
+                            parentForm.Controls.Add(signInControl1);
+                            signInControl1.Dock = DockStyle.Fill;
+                            signInControl1.BringToFront();
+
+                            if (parentForm is Form1 form1)
+                            {
+                                form1.button4.Visible = false;
+                            }
                         }
                     }
                     else

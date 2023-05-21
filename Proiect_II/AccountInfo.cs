@@ -163,6 +163,8 @@ namespace Proiect_II
                     }
                     sqlTransaction.Commit();
                     MessageBox.Show("Account Deleted", "Done", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    Form1 form = new Form1();
+                    form.Show();
                 }
                 catch(Exception ex)
                 {
