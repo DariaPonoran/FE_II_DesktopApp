@@ -42,7 +42,7 @@ namespace Proiect_II
                 Order order = new Order();
                 if (radioButtonCard.Checked)
                 {
-                    if(ActiveOrder.Active == false)
+                    if (ActiveOrder.Active == false)
                     {
                         Form2 form = new Form2();
                         form.ShowDialog();
@@ -73,7 +73,7 @@ namespace Proiect_II
 
                 if (radioButtonCash.Checked)
                 {
-                    if(ActiveOrder.Active == false)
+                    if (ActiveOrder.Active == false)
                     {
                         parentForm.Controls.Add(order);
                         order.GetCurier();
@@ -96,7 +96,6 @@ namespace Proiect_II
 
         public void ShoppingCartLoad()
         {
-            //listBox1.Items.Clear();
             if (ItemsClass.itemsList_names != null && ItemsClass.itemsList_prices != null)
             {
                 foreach (string item in ItemsClass.itemsList_names)
@@ -112,6 +111,15 @@ namespace Proiect_II
             }
             textBox1.Text = suma.ToString();
             OrderTotal.Total = suma;
+        }
+
+        public void LoadShopping(object sender, EventArgs e)
+        {
+            if(ShoppingCartLoaded.Loaded == false)
+            {
+                ShoppingCartLoad();
+                ShoppingCartLoaded.Loaded = true;
+            }
         }
 
         private void buttonDeleteItem_Click(object sender, EventArgs e)
@@ -138,7 +146,7 @@ namespace Proiect_II
             {
                 MessageBox.Show("Cannot Delete Items When Order Is Ongoing!", "Error");
             }
-                
+
         }
 
         public void closeForm()

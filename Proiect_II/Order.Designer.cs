@@ -38,6 +38,9 @@
             label7 = new Label();
             pictureBox1 = new PictureBox();
             label8 = new Label();
+            label9 = new Label();
+            label10 = new Label();
+            button1 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -130,11 +133,44 @@
             label8.TabIndex = 15;
             label8.Text = "Your order is on the way!";
             // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Century Gothic", 13.8F, FontStyle.Bold, GraphicsUnit.Point);
+            label9.Location = new Point(37, 525);
+            label9.Name = "label9";
+            label9.Size = new Size(275, 27);
+            label9.TabIndex = 16;
+            label9.Text = "Driver's phone number: ";
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Century Gothic", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label10.Location = new Point(312, 528);
+            label10.Name = "label10";
+            label10.Size = new Size(0, 23);
+            label10.TabIndex = 17;
+            // 
+            // button1
+            // 
+            button1.BackColor = Color.Red;
+            button1.Location = new Point(1014, 629);
+            button1.Name = "button1";
+            button1.Size = new Size(155, 29);
+            button1.TabIndex = 18;
+            button1.Text = "Cancel Order";
+            button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
             // Order
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(243, 222, 212);
+            Controls.Add(button1);
+            Controls.Add(label10);
+            Controls.Add(label9);
             Controls.Add(label8);
             Controls.Add(pictureBox1);
             Controls.Add(label7);
@@ -165,5 +201,8 @@
         private Label label7;
         private PictureBox pictureBox1;
         private Label label8;
+        private Label label9;
+        private Label label10;
+        private Button button1;
     }
 }

@@ -37,18 +37,24 @@ namespace Proiect_II
         {
             public static string Name { get; set; }
             public static string Prenume { get; set; }
+            public static string Telefon { get; set; }
         }
         public static class ActiveOrder
         {
             public static Boolean Active { get; set; }
         }
 
+        public static class ShoppingCartLoaded
+        {
+            public static Boolean Loaded { get; set; }
+        }
 
         public static class ItemsClass
         {
             public static ObservableCollection<string> itemsList_names { get; set; }
             public static List<string> itemsList_prices { get; set; }
         }
+      
         public Form1()
         {
             InitializeComponent();
@@ -59,6 +65,7 @@ namespace Proiect_II
             signInControl1.Visible = false;
             shoppingCart1.Visible = false;
             accountInfo1.Visible = false;
+            ShoppingCartLoaded.Loaded = false; 
             // clujRestaurants1.Visible = false;
             // bucurestiRestaurants1.Visible = false;
             // timisoaraRestaurants1.Visible = false;
@@ -170,6 +177,12 @@ namespace Proiect_II
             order1.Visible = true;
             shoppingCart1.BringToFront();
             shoppingCart1.ShoppingCartLoad();
+            ShoppingCartLoaded.Loaded = true;
+            if (ItemsClass.itemsList_names != null && ItemsClass.itemsList_prices != null)
+            {
+                ItemsClass.itemsList_prices.Clear();
+                ItemsClass.itemsList_names.Clear();
+            }
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)

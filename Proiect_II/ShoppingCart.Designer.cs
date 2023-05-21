@@ -260,6 +260,7 @@
             Margin = new Padding(3, 4, 3, 4);
             Name = "ShoppingCart";
             Size = new Size(1283, 781);
+            Click += LoadShopping;
             groupBox1.ResumeLayout(false);
             groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
